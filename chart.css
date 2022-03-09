@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 14px/1.4 Arial, sans-serif;
+}
+#page-wrap {
+    margin: auto;
+}
+svg {
+    margin: auto;
+    text-align: center;
+}
+
+#tooltip {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid black;
+    padding: 5px;
+}
+#tooltip p {
+    margin: 5px 0
+}
+h1 {
+    text-align: center;
+}
+
+p {
+    margin: 20px 0;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+	background: #eee;
+}
+
+th {
+	background: #333;
+	color: white;
+	font-weight: bold;
+	cursor: s-resize;
+	background-repeat: no-repeat;
+       background-position: 3% center;
+}
+
+td, th {
+	padding: 6px;
+	border: 1px solid #ccc;
+	text-align: left;
+}
+
+th.des:after, #sort-button.des span::after {
+    content: "\21E9";
+}
+
+th.aes:after, #sort-button.aes span::after {
+    content: "\21E7";
+}
+.hover{
+    opacity: 0.5
+}
